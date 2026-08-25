@@ -98,7 +98,4 @@ Future improvements could include:
 * Start menu
 * Improved animations
 * Leaderboard support
-
-## = License
-
-This project is available under the MIT License.
+ is available under the MIT License.
