@@ -6,34 +6,30 @@ A simple browser-based Snake game built with **HTML, CSS, and vanilla JavaScript
 
 ## 🎮 Features
 
-* Classic Snake gameplay
-* Arrow-key controls
-* WASD controls
-* Score tracking
-* Persistent high score using `localStorage`
-* Increasing difficulty as the score increases
-* Restart functionality
-* Collision detection for walls and the snake's body
-* Canvas-based rendering
+- Classic Snake gameplay
+- Arrow-key controls
+- WASD controls
+- Score tracking
+- Persistent high score using browser `localStorage`
+- Increasing difficulty as the score increases
+- Restart functionality
+- Wall and self-collision detection
+- Canvas-based rendering
 
 ## 🕹️ Controls
 
-| Key   | Action     |
-| ----- | ---------- |
-| ↑ / W | Move up    |
-| ↓ / S | Move down  |
-| ← / A | Move left  |
+| Key | Action |
+| --- | --- |
+| ↑ / W | Move up |
+| ↓ / S | Move down |
+| ← / A | Move left |
 | → / D | Move right |
 
-## 🚀 Running the Game
+## 🚀 Getting Started
 
 No installation or external dependencies are required.
 
-### Option 1 — Open directly
-
-Download or clone the repository and open `index.html` in a modern web browser.
-
-### Option 2 — Run with a local server
+### Run locally
 
 Clone the repository:
 
@@ -42,9 +38,9 @@ git clone https://github.com/daksh-57/snake-game-just-like-the-old.git
 cd snake-game-just-like-the-old
 ```
 
-Then serve the folder using any local HTTP server.
+Then open `index.html` in a modern web browser.
 
-For example, with VS Code, you can use a local development server extension.
+You can also use any simple local development server if you prefer.
 
 ## 🧩 Project Structure
 
@@ -53,16 +49,18 @@ snake-game-just-like-the-old/
 ├── index.html    # Game page and UI structure
 ├── script.js     # Game logic and controls
 ├── style.css     # Game styling
+├── .gitignore    # Files excluded from Git
+├── LICENSE       # Project license
 └── README.md     # Project documentation
 ```
 
 ## 🛠️ Technologies
 
-* HTML5
-* CSS3
-* JavaScript
-* HTML Canvas API
-* Browser `localStorage`
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- HTML Canvas API
+- Browser `localStorage`
 
 ## 🧠 How It Works
 
@@ -79,23 +77,23 @@ During each game update:
 7. Otherwise, the tail is removed.
 8. The canvas is redrawn.
 
-The game also stores the highest score in browser `localStorage`, allowing the best score to persist between sessions.
+The highest score is stored in browser `localStorage`, so it can persist between sessions in the same browser.
 
-##  Known Limitations
+## ⚠️ Known Limitations
 
-* The game currently uses keyboard controls.
-* No automated test suite is included.
-* The game does not currently provide touch controls for mobile devices.
+- The current version is designed primarily for keyboard controls.
+- There are no automated tests yet.
+- Touch controls are not currently implemented.
 
-##  Possible Improvements
+## 🔮 Possible Improvements
 
-Future improvements could include:
+- Mobile/touch controls
+- Pause functionality
+- Difficulty selection
+- Sound effects
+- Improved animations
+- Leaderboard support
 
-* Mobile/touch controls
-* Pause functionality
-* Difficulty selection
-* Sound effects
-* Start menu
-* Improved animations
-* Leaderboard support
- is available under the MIT License.
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
